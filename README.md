@@ -3,6 +3,7 @@ This is the space where I'm going to learn in public. I'm an absolute beginner t
 1. lack of GC
 2. native speeds
 3. system-level programming
+4. cross platform
 
 I'm mainly wanting to investigate this language for the following reasons:
 

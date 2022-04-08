@@ -16,3 +16,5 @@ Next steps:
 1. learn about diffs between thread pooling, rayon, and async/await w/ tokio
 2. structs, impl, traits
 3. mod.rs, lib.rs, main.rs
+
+My next project likely is: [rayon-walk](../rayon-walk)

@@ -1,0 +1,7 @@
+[package]
+name = "rayon-walk"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+rayon = "1.5.1"
