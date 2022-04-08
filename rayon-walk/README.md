@@ -19,3 +19,5 @@ Next steps:
 1. learn to do some perf measurements
 2. understand and_then & map
 3. switch to glob and clean up the walk some
+
+Next project: [rayon-walk-cli](../rayon-walk-cli/)
