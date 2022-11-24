@@ -1,8 +1,7 @@
 // iterators4.rs
 // Execute `rustlings hint iterators4` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
-
+// 1! = 1, 2! = 1! * 2, 3! = 2! * 3, ...
 pub fn factorial(num: u64) -> u64 {
     // Complete this function to return the factorial of num
     // Do not use:
@@ -13,6 +12,16 @@ pub fn factorial(num: u64) -> u64 {
     // For an extra challenge, don't use:
     // - recursion
     // Execute `rustlings hint iterators4` for hints.
+
+    let count: Vec<u64> = (0..num).collect();
+
+    (0..num).collect().into_iter().fold(1u64, |accum, index| {
+        if index == 0 {
+            1
+        } else {
+            accum * (index + 1)
+        }
+    })
 }
 
 #[cfg(test)]
